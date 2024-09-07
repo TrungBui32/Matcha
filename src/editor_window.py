@@ -10,7 +10,7 @@ class EditorWindow(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('Verilog Editor')
+        self.setWindowTitle('Matcha')
         self.setGeometry(100, 100, 1000, 600)
 
         self.editor = VerilogEditor(self)
